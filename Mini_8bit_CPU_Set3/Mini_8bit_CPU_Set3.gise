@@ -59,6 +59,15 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="counter.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="counter.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="cpu.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="cpu.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="cpu.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="cpu.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="cpu.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="cpu.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cpu.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cpu.xst"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpu_xst.xrpt"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="program_counter.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="program_counter.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="program_counter.ngc"/>
@@ -86,42 +95,46 @@
     <transform xil_pn:end_ts="1792747887" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1792747887">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1659956028754838630" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7925166906712206085" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2261107898774271518" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4679513615143153997" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-3915855964656755396" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="6317097804769689447" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758796" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3506803425100249620" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762467" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4543027215353774313" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1792758801" xil_pn:in_ck="-2676958868059650380" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="-7323121824267443607" xil_pn:start_ts="1792758796">
+    <transform xil_pn:end_ts="1792762472" xil_pn:in_ck="-3697462152901911796" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="610125802576555860" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="accu_reg.lso"/>
-      <outfile xil_pn:name="accu_reg.ngc"/>
-      <outfile xil_pn:name="accu_reg.ngr"/>
-      <outfile xil_pn:name="accu_reg.prj"/>
-      <outfile xil_pn:name="accu_reg.stx"/>
-      <outfile xil_pn:name="accu_reg.syr"/>
-      <outfile xil_pn:name="accu_reg.xst"/>
-      <outfile xil_pn:name="accu_reg_xst.xrpt"/>
+      <outfile xil_pn:name="alu.ngr"/>
+      <outfile xil_pn:name="control_unit.ngr"/>
+      <outfile xil_pn:name="cpu.lso"/>
+      <outfile xil_pn:name="cpu.ngc"/>
+      <outfile xil_pn:name="cpu.ngr"/>
+      <outfile xil_pn:name="cpu.prj"/>
+      <outfile xil_pn:name="cpu.stx"/>
+      <outfile xil_pn:name="cpu.syr"/>
+      <outfile xil_pn:name="cpu.xst"/>
+      <outfile xil_pn:name="cpu_xst.xrpt"/>
+      <outfile xil_pn:name="program_counter.ngr"/>
+      <outfile xil_pn:name="rom.ngr"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/cpu.xst" -ofn "/home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/cpu.syr" 

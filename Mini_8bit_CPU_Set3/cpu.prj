@@ -1,0 +1,6 @@
+vhdl work "rom.vhd"
+vhdl work "program_counter.vhd"
+vhdl work "control_unit.vhd"
+vhdl work "alu.vhd"
+vhdl work "accumulator_reg.vhd"
+vhdl work "cpu.vhd"
