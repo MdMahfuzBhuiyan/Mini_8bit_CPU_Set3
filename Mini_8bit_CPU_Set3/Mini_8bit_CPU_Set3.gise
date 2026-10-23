@@ -68,6 +68,7 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="cpu.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="cpu.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="cpu_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="program_counter.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="program_counter.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="program_counter.ngc"/>
@@ -87,11 +88,41 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="rom.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="rom.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="rom_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_cpu_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1792762748" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1792762748">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1792762842" xil_pn:in_ck="-3314755511493225447" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1792762842">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="accumulator_reg.vhd"/>
+      <outfile xil_pn:name="alu.vhd"/>
+      <outfile xil_pn:name="control_unit.vhd"/>
+      <outfile xil_pn:name="cpu.vhd"/>
+      <outfile xil_pn:name="program_counter.vhd"/>
+      <outfile xil_pn:name="rom.vhd"/>
+      <outfile xil_pn:name="tb_cpu.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1792762748" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1792762748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1792762748" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2623569966022418569" xil_pn:start_ts="1792762748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1792762748" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4679513615143153997" xil_pn:start_ts="1792762748">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1792747887" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1792747887">
       <status xil_pn:value="SuccessfullyRun"/>
     </transform>
@@ -122,6 +153,8 @@
     <transform xil_pn:end_ts="1792762472" xil_pn:in_ck="-3697462152901911796" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="610125802576555860" xil_pn:start_ts="1792762467">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
       <outfile xil_pn:name="alu.ngr"/>
       <outfile xil_pn:name="control_unit.ngr"/>

@@ -1,0 +1,22 @@
+ISim log file
+Running: /home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/tb_cpu_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/tb_cpu_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_cpu/DUT/ROM_UNIT/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 76 ns: Note: ALL SET 3 CPU TESTS PASSED (/tb_cpu/).
+# run 80 ns
+# restart
+# run 80 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /tb_cpu/DUT/ROM_UNIT/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 76 ns: Note: ALL SET 3 CPU TESTS PASSED (/tb_cpu/).
