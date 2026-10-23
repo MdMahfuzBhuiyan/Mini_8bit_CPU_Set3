@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/program_counter.xst" -ofn "/home/mahfuz/Mini_8bit_CPU_Set3/Mini_8bit_CPU_Set3/program_counter.syr" 
